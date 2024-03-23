@@ -33,7 +33,7 @@ class _AnimatedContainerScreenState extends State<AnimatedContainerScreen> {
                 });
               },
               child: AnimatedContainer(
-                duration:  Duration(milliseconds: 200),
+                duration: const Duration(milliseconds: 200),
                 width: _size,
                 height: _size,
                 decoration: BoxDecoration(
@@ -44,12 +44,6 @@ class _AnimatedContainerScreenState extends State<AnimatedContainerScreen> {
             ),
           ),
         ],
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          setState(() {});
-        },
-        backgroundColor: Colors.amber,
       ),
     );
   }
