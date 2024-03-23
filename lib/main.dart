@@ -1,6 +1,4 @@
-import 'package:animation_course/animations/implicit/animated_align_demo.dart';
-import 'package:animation_course/animations/implicit/animated_container.dart';
-import 'package:animation_course/animations/implicit/animated_text.dart';
+import 'package:animation_course/animations/implicit/animated_opacity.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -19,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.black),
         useMaterial3: true,
       ),
-      home: const AnimatedTextScreen(),
+      home: const AnimatedOpacityScreen(),
     );
   }
 }
