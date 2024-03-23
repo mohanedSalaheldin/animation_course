@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class AnimatedAlignDemo extends StatefulWidget {
-  const AnimatedAlignDemo({super.key});
+class AnimatedAlignScreen extends StatefulWidget {
+  const AnimatedAlignScreen({super.key});
 
   @override
-  State<AnimatedAlignDemo> createState() => _AnimatedAlignDemoState();
+  State<AnimatedAlignScreen> createState() => _AnimatedAlignScreenState();
 }
 
-class _AnimatedAlignDemoState extends State<AnimatedAlignDemo> {
+class _AnimatedAlignScreenState extends State<AnimatedAlignScreen> {
   int _alingmentValue = 0;
   @override
   Widget build(BuildContext context) {
