@@ -41,7 +41,7 @@ class _AnimatedTextScreenState extends State<AnimatedTextScreen> {
                   onPressed: () {
                     setState(() {
                       _fontSize = 30.0;
-                      _textColor = Colors.grey;
+                      _textColor = const Color.fromARGB(255, 92, 91, 91);
                     });
                   },
                   icon: const Icon(Icons.remove)),
